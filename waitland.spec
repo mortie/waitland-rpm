@@ -10,7 +10,7 @@ BuildRequires: gcc
 BuildRequires: make
 BuildRequires: wayland-devel
 
-Requires: wayland
+Requires: libwayland-client
 
 %description
 Waitland lets you wait for a Wayland compositor to die in a script,
